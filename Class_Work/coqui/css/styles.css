@@ -1,0 +1,60 @@
+html{
+	background: url(http://costaricagreenadventures.com/wp-content/uploads/2015/07/Monteverde-Rainforest-Tour-Costa-Rica.jpg);
+	color: white;
+	text-decoration: ;
+	text-align: ;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	font-style: slant;
+	font-size: 12px;
+
+}
+
+div {
+	 text-align: center;
+}
+
+div h1{
+	background-color: brown;
+	padding: 5px;
+	width: 400px;
+	text-align: ;
+	margin: 0 auto;
+}
+
+.frog h1 {
+	margin: 0 auto;
+}
+
+.frog h2 {
+	border: 2px dotted red;
+	padding: 10px;
+	
+}
+
+body{
+	margin: 16px;
+	padding: 16px;
+	background-color: green;
+
+}
+
+p{
+	 border: 2px dotted purple;
+	 margin: 10px;
+	 padding: 10px;
+}
+ol {
+		text-align:left;
+		color: white;
+		font-family: arial;
+		font-size: 3mm;
+		width: 75px;
+		margin: 0 auto;
+		padding: 13px;
+
+
+}
+a{
+	color:white;
+}

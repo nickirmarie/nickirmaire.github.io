@@ -1,0 +1,50 @@
+html{ 
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+
+h1{
+	background-color:#34485A;
+	color: white;
+	padding: 30px;
+	margin: 20px;
+}
+#head{
+	text-align: center;
+	background: ;
+	border: 1px;
+	width: 300px;
+	padding:;
+    height:;
+    border-width:;
+	display: inline-flex;
+}
+h2{
+	color: black;
+	border: ;
+	font-size: 50px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#maui{
+	background: #8AA2B1;
+	margin: 20px;
+	
+}
+#reykjavik{
+	background: #F0F1F2;
+	margin: 20px;
+}
+#aspen {
+	background: #3581DA;
+	margin: 20px;
+}
+p{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 16px;
+
+}
+
