@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background: lightgray;
+  border: 1px solid gray;
+
+}
+
+#two-column .container {
+  height: 200px;
+  display: flex;
+  margin: 30px;
+}
+
+#two-column .middle{
+	height: 500px;
+	width: 900px;
+	display: inline-flex;
+}
+
+#two-column .small{
+	width: 300px;
+}
+
+
+
+
+#three-column .container {
+  height: 200px;
+  display: flex;
+  margin: 10px;
+}
+
+#three-column .middle{
+	display: inline-flex;
+	justify-content: center;
+	height: 500px;
+
+}
+#three-column .sides {
+	width: 200px;
+}
+
+#three-column .center{
+	width: 700px;
+}

@@ -1,0 +1,91 @@
+body{
+ font-family: 'Lato', sans-serif;
+ width: 720px;
+ padding: 54px;
+}
+
+h1{
+	color: #dd0000;
+	font-weight: lighter;
+	
+}
+h2{
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 5px 0px;
+}
+.date{
+ color: #cccccc;
+ margin-top: 30px;
+
+}
+img{
+	width: 720px;
+}
+
+.line{
+	border: 1px solid lightgray;
+	margin-top: 20px;
+}
+/*border: thickness or size, style (solid, dash, dotted, double), color*/
+
+h1, p#head, nav ul{
+	margin: 5px 0px;
+}
+.title{
+	
+}
+p#head{
+	color: black;
+	margin: 2px 0px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+p{
+	font-size: 12px;
+	color: #cccccc;
+	line-height: 1.5;
+}
+a.continue{
+	color:red;
+	text-decoration: none;
+	float: right;
+}
+/*after a float, you have to put a clear */
+.clear{
+	clear: both;
+}
+li{
+	display:inline-block;	
+ }
+
+.bar ul{
+	color: #dd0000; 
+	padding-left: 0px;
+ }
+ .bar ul li a {
+ 	margin: 0px 5px 0px 0px;
+ 	color:#dddddd;
+ 	font-size: 14px;
+ }
+.navigation{
+	}
+/*Try and us the a tag seperate for decoration */
+
+ a:hover{
+ 	color: black;
+ }
+
+foot {
+	color: black;
+}
+foot ul{
+	padding-left:0px;
+}
+foot ul li  a{
+	color: red;
+	text-decoration: none;
+} 
+foot #copy {
+	color: gray;
+}
