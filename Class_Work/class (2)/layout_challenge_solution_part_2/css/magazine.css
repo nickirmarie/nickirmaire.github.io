@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .left {
+  flex-basis: 200px;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+
+  flex-basis: 500px;
+}
+
+header .tiny {
+  flex-grow: 1;
+  height: 40px;
+  margin-left: 0px;
+}
+
+main {
+  display: flex;
+}
+
+main .left {
+  flex-grow: 1;
+  height: auto;
+}
+
+main .right {
+  flex-grow: 4;
+}
+
+main .middle {
+  display: flex;
+}
+
+main .middle .left {
+  flex-grow: 4;
+  height: 250px;
+}
+
+main .middle .right {
+  flex-grow: 1;
+  height: auto;
+
+/*  how else could we do this?
+*/  flex-basis: 22  px;
+}
+/*100% does not act the same in flex land - it will not look at the parent for the properties*/
+/*Auto is the best for flex and doesn't hve unexpected behavior */
+
+main .bottom {
+  display: flex;
+}
+
+main .bottom .medium {
+  flex-grow: 1;
+}

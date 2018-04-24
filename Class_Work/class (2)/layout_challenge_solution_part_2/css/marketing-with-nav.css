@@ -1,0 +1,27 @@
+headerm, header .right, .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .left {
+  flex-basis: 200px;
+}
+
+header .right {
+  align-items: center;
+}
+
+header .tiny {
+  width: 110px;
+  height: 40px;
+}
+
+.top {
+  height: 300px;
+}
+
+.medium {
+  flex-grow: 1;
+}
+/*equal distribution with flex - dynamic content that brings in three or four*/
+/*don't need to set exact percentages*/
