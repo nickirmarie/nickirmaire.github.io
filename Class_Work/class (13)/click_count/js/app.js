@@ -16,8 +16,25 @@
 // As a user
 // When the click counter reaches 15
 // I expect the background of the body to be blue
+var total = 0
+
 
 $("#clickme").click(clickCount);
 
 function clickCount() {
+	total += 1;
+
+	if(total === 5){
+ 		$("body").css("background-color", "red");
+	} else if (total === 10) {
+  		$("body").css("background-color", "green");
+	} else if (total === 15){
+  		$("body").css("background-color", "blue");
+  	} else {
+  		$("body").css("background-color", "pink");
+  	}
+  	
+	$("#click-num").html(total);
 }
+
+

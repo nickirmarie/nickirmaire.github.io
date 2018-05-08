@@ -1,0 +1,40 @@
+html{
+	background: url(../images/1startpage/finalred2.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+body {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	padding: 150px 60px 60px 60px;
+	position: relative;
+
+
+}
+
+h1{
+	 letter-spacing: 1px;
+}
+
+a {
+
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+/*    display: block;*/
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+

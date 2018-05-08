@@ -1,0 +1,42 @@
+
+.nav {
+	margin: 20px;
+	padding: 20px;
+	float: right;
+
+
+
+/*	height: 10%;
+	width: 50%;
+ 	justify-content: flex-end;
+	text-decoration: none;
+	color: gray;
+	height: 80px;
+	width: 200px;
+	display: flex;
+	justify-content: space-around;*/
+
+	/*color: gray;
+	font-size: 22px;
+	margin-right: 16px;
+	border-bottom: 2px solid #eeeeee;
+	display: inline;*/
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+	font-family: Helvetica,arial,sans-serif; 
+	padding: 20px;
+}
+
+/*a:hover {
+	color: black;
+
+}*/
+
+img {
+	width: 60%;
+	height: 60%;
+	/*justify-content: flex-end;*/
+}

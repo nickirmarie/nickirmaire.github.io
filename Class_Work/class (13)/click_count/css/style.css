@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background: black url('../images/count.png') center center fixed no-repeat;
+	background: black url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Georgia_in_United_States.svg/2000px-Georgia_in_United_States.svg.png') center center fixed no-repeat;
 	background-size: 40%;
 	height: 100%;
 	margin: 0;
