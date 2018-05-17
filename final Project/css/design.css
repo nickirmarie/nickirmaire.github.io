@@ -1,0 +1,65 @@
+body{
+	width: 78%
+}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 a{
+
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica,arial,sans-serif; 
+	font-size: 45px;
+	margin: 10px;
+	padding: 20px 15px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	/*align-items: center;*/
+	/*vertical-align: baseline;*/
+}
+
+nav a {
+	/*text-align: end;*/
+	text-decoration: none;
+	color: gray;
+	font-family: Helvetica,arial,sans-serif; 
+	margin: 10%;
+	font-size: 20px;
+}
+
+a:hover {
+	color: black;
+	opacity: 0.7;
+}
+
+
+
+#art{
+	overflow-x: hidden;
+	overflow: scroll;
+		/*overflow-x: scroll;*/
+	height:175px;
+	width: 110%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+
+.imagecontainer{
+	overflow: hidden;
+	margin: 10px;
+	position: relative;
+	
+}
+
+img{
+	width: 300px;
+}

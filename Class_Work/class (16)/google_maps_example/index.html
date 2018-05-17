@@ -6,15 +6,22 @@
   </head>
 <body>
    <div id="map"></div>
-   <script>
+<!--    <script>
      var map;
      function initMap() {
        map = new google.maps.Map(document.getElementById('map'), {
          center: {lat: -34.397, lng: 150.644},
          zoom: 8
+         var mapElem = document.getElementById("map");
+          var nyc = {lat: 40.7128, lng: -74.0060};
+
+          var map = new google.maps.Map(mapElem, {
+          zoom: 13,
+          center: nyc
+  });
        });
      }
-   </script>
+   </script> -->
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAaRf4Bk4r-QiUbsnowNSq1QLfD3mibq8&callback=initMap"
    async defer></script>
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

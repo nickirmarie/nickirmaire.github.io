@@ -2,6 +2,7 @@ html{
 	background: url(../images/1startpage/finalred2.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
+    
 
     
 }
@@ -9,7 +10,7 @@ html{
 body {
 	color: white;
 	text-align: center;
-	margin-top: 20px;
+	margin: 0 auto;
 	padding: 150px 60px 60px 60px;
 	position: relative;
 
@@ -18,11 +19,13 @@ body {
 
 h1{
 	 letter-spacing: 1px;
+     font-family: arial, sans-serif;
+     display: spacebetween;
 }
 
 a {
 
-	font-family: 'Oswald', sans-serif;
+	font-family: 'arial', sans-serif;
 	color: #fff;
     border: 1px solid #fff;
     text-decoration: none;
@@ -38,3 +41,6 @@ a {
     border-radius: 5px;
 }
 
+a:hover{
+    color: pink;
+}
