@@ -47,7 +47,7 @@ a:hover {
 	/*position: absolute;*/
 	justify-content: column;
 	margin: 30px;
-	padding: 20px;
+	/*padding: 20px;*/
 	bottom: 0;
 	left: -10;
 }
@@ -55,15 +55,16 @@ a:hover {
 	justify-content: center;
 }*/
 #nyc{
-	width: 300px;
+	width: 600px;
 	padding: 30px;
+	opacity: .50;
 }
 
 p{
 	/*width: 60%;*/
 	text-align: center;
-	color: gray;
-	font-size: 11px;
+	color: black;
+	font-size: 18px;
 	font-family:  arial narrow, sans-serif;
 
 }

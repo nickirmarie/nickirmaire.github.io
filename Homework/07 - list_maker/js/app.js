@@ -23,3 +23,18 @@
 // As a user
 // When I click on an item I have already added
 // I expect it to be removed from the list
+
+$('#clickme').click(function () {
+	var newItem = $('#item').val();
+	if(newItem === ""){
+		alert('You must enter an item!');
+	} else{
+		$('#list').append('<li>' + newItem + '</li>');
+		$('li').click(function(event){
+			$(event.currentTarget).remove();
+		});
+		}
+		$('#item')
+		.focus()
+		.val();
+		});
